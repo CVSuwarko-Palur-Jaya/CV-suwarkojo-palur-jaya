@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f4ee">
+    <meta name="description" content="Postingan Suwarko Jo.">
+    <title>Postingan Suwarko Jo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="post.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Suwarko Jo, beranda">suwarko<span>jo.</span></a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <a class="nav-link" href="index.html#beranda">Beranda</a>
+        <a class="nav-link" href="index.html#artikel">Artikel</a>
+        <a class="nav-link active" href="profile.html">Tentang</a>
+      </nav>
+      <a class="header-cta" href="profile.html">← Kembali ke profil</a>
+    </header>
+
+    <main class="post-page">
+      <a class="post-back-link" href="profile.html">← Kembali ke profil</a>
+      <article class="social-post" aria-label="Postingan Suwarko Jo">
+        <div class="social-post-image">
+          <img id="post-image" src="postingan/1794367775681.jpg" alt="Meme percakapan tentang meminta ditambah tanah saat dikubur">
+        </div>
+        <div class="social-post-details">
+          <header class="social-post-header">
+            <a class="social-account" href="profile.html">
+              <img src="photoprofil.jpg" alt="" class="social-avatar">
+              <span><strong>suwarko.jo</strong><small>Postingan foto</small></span>
+            </a>
+            <span class="post-more" aria-hidden="true">···</span>
+          </header>
+
+          <section class="social-caption" aria-label="Caption postingan">
+            <img src="photoprofil.jpg" alt="" class="social-avatar">
+            <p><strong>suwarko.jo</strong> <span id="post-caption">Ketika warjo kena azab akibat nyolong foto wkwk 😅</span></p>
+          </section>
+
+          <div class="social-comments" aria-live="polite" id="social-comments"></div>
+
+          <div class="social-post-actions">
+            <div class="social-action-row">
+              <button class="social-icon like-button" type="button" aria-label="Sukai postingan" aria-pressed="false">♡</button>
+              <button class="social-icon comment-focus" type="button" aria-label="Tulis komentar">◯</button>
+              <button class="social-icon share-button" type="button" aria-label="Bagikan postingan">↗</button>
+              <span class="social-save" aria-hidden="true">⌑</span>
+            </div>
+            <p class="like-count"><strong id="like-count">Suka</strong></p>
+            <span>POSTINGAN SUWARKO JO</span>
+          </div>
+
+          <form class="social-comment-form" id="comment-form">
+            <label class="sr-only" for="comment-input">Tambahkan komentar</label>
+            <input id="comment-input" name="comment" type="text" placeholder="Tambahkan komentar..." maxlength="280" required>
+            <button type="submit">Kirim</button>
+          </form>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="index.html">suwarko<span>jo.</span></a>
+      <p>Ruang baca untuk cerita sehari-hari.</p>
+      <span class="copyright">© 2025 Suwarko Jo. Dibuat untuk dibaca pelan-pelan.</span>
+    </footer>
+  </body>
+</html>
